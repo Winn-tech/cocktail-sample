@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <div class="single " id="single">
+        <!-- <h3>{name}</h3> -->
+         <h3>Hello</h3>
+        <div class="single-center">
+            <div class="image">
+                <img src={image} alt={name} />
+            </div>
+            <div class="description">
+                <div class='sub'>
+                    <span>Category:</span>
+                    <span>{category}</span>
+                </div>
+                <div class='sub'>
+                    <span>glass:</span>
+                    <span>{glass}</span>
+                </div>
+                <div class='sub'>
+                    <span>instructions:</span>
+                    <span>{instructions}</span>
+                </div>
+                {/* <div>{ingredients.map((item, index)=>{
+                    //  console.log(`Ingredient ${index}:`, item);
+                     return item ? <span key={index}> {item}</span> : null
+                })}</div> */}
+                
+            </div>
+        </div>
+        <div class='home-btn'>
+            <Link to="/">
+                <button>Back</button>
+            </Link>
+        </div>
+        </div>
+        <script  src="script.js"></script>
+</body>
+</html>
